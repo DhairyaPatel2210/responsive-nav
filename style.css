@@ -115,7 +115,6 @@ nav ul {
 
 .burger {
   position: absolute;
-  cursor: pointer;
   top: 0;
   right: 0;
   margin-right: 1em;
@@ -212,7 +211,6 @@ nav a:hover {
 
 .Contact-button {
   display: block;
-  cursor: pointer;
   z-index: 2000;
   position: fixed;
   height:40px;
