@@ -22,7 +22,7 @@ const callUp = () =>{
             image.src = "images/icons8-phone.svg";
             contactButton.style.animation = `mainButtonOut 0.4s`;
             contactButton.style.opacity = 1;
-            contact_links.style.display = "none";
+            setTimeout(() => {contact_links.style.display = "none";},300);
         }
         else{
             contact_links.style.display = "block";
